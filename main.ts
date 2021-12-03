@@ -56,6 +56,10 @@ function vert () {
 basic.forever(function () {
     feux_circultion()
     if (input.buttonIsPressed(Button.A)) {
+        let pieton = 0
         piéton()
+        if (pieton == 1) {
+        	
+        }
     }
 })
